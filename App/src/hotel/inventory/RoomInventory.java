@@ -1,7 +1,7 @@
 package hotel.inventory;
 import java.util.HashMap;
 import java.util.Map;
-
+//
 
 public class RoomInventory {
     private Map<String, Integer> inventory;

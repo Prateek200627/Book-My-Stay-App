@@ -1,6 +1,6 @@
 package hotel.app;
 import hotel.inventory.RoomInventory;
-
+//
 public class UseCase3InventorySetup {
     public static void main(String[] args) {
         RoomInventory inventory = new RoomInventory();
@@ -15,7 +15,6 @@ public class UseCase3InventorySetup {
         inventory.updateAvailability("Single Room", 4);
 
         System.out.println("\nAfter Update:\n");
-
         inventory.displayInventory();
     }
 }
